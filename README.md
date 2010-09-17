@@ -3,10 +3,13 @@
 Normally, you can't test your location based code in the simulator. If you use your phone, at least you get real GPS, but you can't test stuff that requires movement unless you jump in a car with your laptop. This code allows you to overcome these problems.
 
 ##How to use it
-There are to *very* simple approaches you can take. One is easier upfront, and one is better in the long run.
+There are two *very* simple approaches you can take. One is easier upfront, and one is better in the long run.
+
 ### Quick & Dirty way
 1. Import the the .h and .m files into your project.
 2. Comment the `#ifdef SPOOF` and `#endif` directives when you want to spoof
+
+
 ### Better
 1. Import the .h and .m files into your project.
 2. Duplicate one of your testing build configurations
