@@ -1,4 +1,4 @@
-#README
+#iPhone GeoSpoof
 ##What this is
 Normally, you can't test your location based code in the simulator. If you use your phone, at least you get real GPS, but you can't test stuff that requires movement unless you jump in a car with your laptop. This code allows you to overcome these problems.
 
