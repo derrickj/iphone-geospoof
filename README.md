@@ -1,6 +1,6 @@
 #iPhone GeoSpoof
 ##What this is
-Normally, you can't test your location based code in the simulator. If you use your phone, at least you get real GPS, but you can't test stuff that requires movement unless you jump in a car with your laptop. This code allows you to overcome these problems.
+We all know the iPhone simulator is all but useless for testing location based code. To remedy this, I’ve created a simple simple Objective-C category that you can use to simulate location changes. It’s not over engineered. You don’t have to go figure out a weird file format to and edit that file to get it to work. Just program your routes.
 
 ##How to use it
 There are two *very* simple approaches you can take. One is easier upfront, and one is better in the long run.
