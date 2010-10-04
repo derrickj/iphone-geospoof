@@ -19,3 +19,7 @@ This way is better because you set it up once, and don't need to rely on your me
 
 ##How it works
 It replaces the `startUpdatingLocation` and `startMonitoringSignificantChanges` methods in the system's CLLocationManager class. The new implementations call `locationManager:didUpdateToLocation:fromLocation:` on the location manager's delegate.
+
+##Credits
+I got this idea from this post on StackOverflow:
+http://stackoverflow.com/questions/802156/testing-corelocation-on-iphone-simulator/2060315#2060315
